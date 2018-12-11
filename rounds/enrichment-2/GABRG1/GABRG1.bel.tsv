@@ -1,0 +1,2 @@
+INDRA UUID	Confidence	PMID	Evidence	Subject	Predicate	Object
+13ee534e-3369-4f5f-a2f8-0559a4bb63ab	1.0	18818659	The one GABRG1 haplotype that contributes to H6, H3 and H4 is more abundant in non alcoholics.	p(HGNC:GABRG1)	directlyIncreases	act(p(FPLX:"Histone_H3"))

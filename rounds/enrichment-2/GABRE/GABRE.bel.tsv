@@ -1,0 +1,4 @@
+INDRA UUID	Confidence	PMID	Evidence	Subject	Predicate	Object
+9ca747ab-c122-4ada-836d-872f3eeb746d	1.0	24737792	Hypermethylation of the GABRE ~ miR-452 ~ miR-224 promoter in prostate cancer predicts biochemical recurrence after radical prostatectomy.	p(HGNC:GABRE)	directlyIncreases	act(p(HGNC:GABRE))
+9ca747ab-c122-4ada-836d-872f3eeb746d	1.0	24737792	Hypermethylation of the GABRE ~ miR-452 ~ miR-224 promoter in prostate cancer predicts biochemical recurrence after radical prostatectomy.	p(HGNC:GABRE)	directlyIncreases	act(p(HGNC:GABRE))
+c9a69ec3-c13b-4bfa-867c-ab6a2fac059e	1.0	26307684	Recently, NF-kappaB and p65 was reported to bind regulatory region of miR-224 within intron 6 of host gene GABRE promoting transcription of miR-224 in hepatocellular carcinoma [XREF_BIBR].	p(HGNC:GABRE)	directlyIncreases	act(bp(GO:"GO:0006351"))

@@ -1,0 +1,2 @@
+INDRA UUID	Confidence	PMID	Evidence	Subject	Predicate	Object
+4af2e3e0-7139-4cd2-a120-fef91acdbbb6	1.0	17022822	The groups of patients who maintain over expression have worse relapse free survival, suggesting that keeping THBS3 at high levels maintains the capacity of angiogenesis activated by THBS3.	p(HGNC:THBS3)	directlyIncreases	act(bp(GO:"GO:0001525"))

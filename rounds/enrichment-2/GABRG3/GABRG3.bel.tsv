@@ -1,0 +1,2 @@
+INDRA UUID	Confidence	PMID	Evidence	Subject	Predicate	Object
+fa9585fc-a4af-4d74-adb7-f82e5dd53507	1.0	PMC3860154	Finally, we found that IFN-gamma inhibited IL-4-induced C gamma 3 and C gamma 4 germ-line transcripts (with or without SAC).	p(HGNC:IFNG)	directlyDecreases	act(p(HGNC:GABRG3))

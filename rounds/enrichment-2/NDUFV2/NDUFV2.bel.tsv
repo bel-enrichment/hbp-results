@@ -1,0 +1,5 @@
+INDRA UUID	Confidence	PMID	Evidence	Subject	Predicate	Object
+2d99dbee-97a8-4ba9-9a47-4543a08e1967	1.0	17786189	In addition, Sp1 activated NDUFV2 promoter by binding to its three GC-boxes.	p(HGNC:SP1)	directlyIncreases	act(p(HGNC:NDUFV2))
+54f56a25-743d-4e2d-9187-55952961788a	1.0	25409931	Treatment of the fibroblast cultures with MG132, an inhibitor of proteasome, as well as of mitochondrial Lon protease, prevented the KH7 induced decrease of the level of NDUFA9, NDUFS4 and NDUFV2 in the fibroblast lysate (A).	p(FPLX:Proteasome)	directlyDecreases	p(HGNC:NDUFV2)
+c3e3693c-abbd-4681-a4dd-35c2eadf85c8	1.0	17786189	Sp1 role in the regulation of complex I subunits, was demonstrated by the ability of the Sp1 and DNA binding inhibitor, mithramycin, to inhibit the transcription of NDUFV1 and NDUFV2, in neuroblastoma cells.	p(HGNC:SP1)	directlyDecreases	p(HGNC:NDUFV2)
+3d116863-dc98-4e22-adc5-08a4cace40c6	1.0	17786189	Mithramycin modulates mRNA expression of NDUFV2, NDUFV1 NDUFS1 and RELN in SH-SY5Y cells.	a(PUBCHEM:163659)	directlyIncreases	p(HGNC:NDUFV2)

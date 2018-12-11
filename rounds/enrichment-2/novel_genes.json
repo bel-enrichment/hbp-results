@@ -1,0 +1,358 @@
+[
+  {
+    "gene_symbol": "BACE1",
+    "number_statements": 781
+  },
+  {
+    "gene_symbol": "BLMH",
+    "number_statements": 204
+  },
+  {
+    "gene_symbol": "CADPS2",
+    "number_statements": 14
+  },
+  {
+    "gene_symbol": "CASP2",
+    "number_statements": 361
+  },
+  {
+    "gene_symbol": "CASP4",
+    "number_statements": 127
+  },
+  {
+    "gene_symbol": "CASP9",
+    "number_statements": 1006
+  },
+  {
+    "gene_symbol": "CASR",
+    "number_statements": 380
+  },
+  {
+    "gene_symbol": "CHRM3",
+    "number_statements": 75
+  },
+  {
+    "gene_symbol": "CKB",
+    "number_statements": 88
+  },
+  {
+    "gene_symbol": "COL3A1",
+    "number_statements": 147
+  },
+  {
+    "gene_symbol": "CSF1",
+    "number_statements": 972
+  },
+  {
+    "gene_symbol": "DAB2",
+    "number_statements": 303
+  },
+  {
+    "gene_symbol": "DDIT3",
+    "number_statements": 1257
+  },
+  {
+    "gene_symbol": "DDX39B",
+    "number_statements": 118
+  },
+  {
+    "gene_symbol": "DHCR24",
+    "number_statements": 163
+  },
+  {
+    "gene_symbol": "FPR1",
+    "number_statements": 403
+  },
+  {
+    "gene_symbol": "FPR2",
+    "number_statements": 207
+  },
+  {
+    "gene_symbol": "FRMD4A",
+    "number_statements": 37
+  },
+  {
+    "gene_symbol": "GABBR1",
+    "number_statements": 72
+  },
+  {
+    "gene_symbol": "GABRA1",
+    "number_statements": 43
+  },
+  {
+    "gene_symbol": "GABRA2",
+    "number_statements": 17
+  },
+  {
+    "gene_symbol": "GABRA4",
+    "number_statements": 9
+  },
+  {
+    "gene_symbol": "GABRB1",
+    "number_statements": 78
+  },
+  {
+    "gene_symbol": "GABRB2",
+    "number_statements": 34
+  },
+  {
+    "gene_symbol": "GABRD",
+    "number_statements": 2
+  },
+  {
+    "gene_symbol": "GABRE",
+    "number_statements": 13
+  },
+  {
+    "gene_symbol": "GABRG1",
+    "number_statements": 24
+  },
+  {
+    "gene_symbol": "GABRG2",
+    "number_statements": 53
+  },
+  {
+    "gene_symbol": "GABRG3",
+    "number_statements": 4
+  },
+  {
+    "gene_symbol": "GABRP",
+    "number_statements": 9
+  },
+  {
+    "gene_symbol": "GABRQ",
+    "number_statements": 8
+  },
+  {
+    "gene_symbol": "GATA6",
+    "number_statements": 783
+  },
+  {
+    "gene_symbol": "GFAP",
+    "number_statements": 636
+  },
+  {
+    "gene_symbol": "GRB2",
+    "number_statements": 1132
+  },
+  {
+    "gene_symbol": "HAMP",
+    "number_statements": 574
+  },
+  {
+    "gene_symbol": "HSD17B10",
+    "number_statements": 57
+  },
+  {
+    "gene_symbol": "IGFL1",
+    "number_statements": 10
+  },
+  {
+    "gene_symbol": "IKBKG",
+    "number_statements": 837
+  },
+  {
+    "gene_symbol": "IL23A",
+    "number_statements": 166
+  },
+  {
+    "gene_symbol": "IRAK2",
+    "number_statements": 89
+  },
+  {
+    "gene_symbol": "KCNB1",
+    "number_statements": 103
+  },
+  {
+    "gene_symbol": "KEAP1",
+    "number_statements": 533
+  },
+  {
+    "gene_symbol": "LAMB2",
+    "number_statements": 20
+  },
+  {
+    "gene_symbol": "LAMC2",
+    "number_statements": 64
+  },
+  {
+    "gene_symbol": "LAMP1",
+    "number_statements": 183
+  },
+  {
+    "gene_symbol": "LRP1",
+    "number_statements": 642
+  },
+  {
+    "gene_symbol": "LRP8",
+    "number_statements": 195
+  },
+  {
+    "gene_symbol": "MAPK8IP1",
+    "number_statements": 172
+  },
+  {
+    "gene_symbol": "MIR124-1",
+    "number_statements": 5
+  },
+  {
+    "gene_symbol": "MIR155",
+    "number_statements": 716
+  },
+  {
+    "gene_symbol": "MIR15A",
+    "number_statements": 5
+  },
+  {
+    "gene_symbol": "MIR16-1",
+    "number_statements": 5
+  },
+  {
+    "gene_symbol": "MIR590",
+    "number_statements": 5
+  },
+  {
+    "gene_symbol": "MIR659",
+    "number_statements": 5
+  },
+  {
+    "gene_symbol": "MIR9-1",
+    "number_statements": 5
+  },
+  {
+    "gene_symbol": "MIRLET7A1",
+    "number_statements": 5
+  },
+  {
+    "gene_symbol": "MYH9",
+    "number_statements": 183
+  },
+  {
+    "gene_symbol": "NAE1",
+    "number_statements": 68
+  },
+  {
+    "gene_symbol": "NDUFS1",
+    "number_statements": 52
+  },
+  {
+    "gene_symbol": "NDUFV2",
+    "number_statements": 12
+  },
+  {
+    "gene_symbol": "NECAB3",
+    "number_statements": 94
+  },
+  {
+    "gene_symbol": "NEUROG3",
+    "number_statements": 111
+  },
+  {
+    "gene_symbol": "NGFR",
+    "number_statements": 205
+  },
+  {
+    "gene_symbol": "NOD2",
+    "number_statements": 578
+  },
+  {
+    "gene_symbol": "NRGN",
+    "number_statements": 232
+  },
+  {
+    "gene_symbol": "NTRK1",
+    "number_statements": 1007
+  },
+  {
+    "gene_symbol": "NUMB",
+    "number_statements": 276
+  },
+  {
+    "gene_symbol": "PIGR",
+    "number_statements": 237
+  },
+  {
+    "gene_symbol": "PLA2G4A",
+    "number_statements": 266
+  },
+  {
+    "gene_symbol": "PLA2G7",
+    "number_statements": 163
+  },
+  {
+    "gene_symbol": "PLSCR1",
+    "number_statements": 226
+  },
+  {
+    "gene_symbol": "PPARA",
+    "number_statements": 3025
+  },
+  {
+    "gene_symbol": "PRKCD",
+    "number_statements": 1551
+  },
+  {
+    "gene_symbol": "PTGS1",
+    "number_statements": 581
+  },
+  {
+    "gene_symbol": "PTX3",
+    "number_statements": 369
+  },
+  {
+    "gene_symbol": "SCARB1",
+    "number_statements": 475
+  },
+  {
+    "gene_symbol": "SHC1",
+    "number_statements": 307
+  },
+  {
+    "gene_symbol": "SLC1A2",
+    "number_statements": 247
+  },
+  {
+    "gene_symbol": "SLC5A7",
+    "number_statements": 90
+  },
+  {
+    "gene_symbol": "SORL1",
+    "number_statements": 153
+  },
+  {
+    "gene_symbol": "SPP1",
+    "number_statements": 1495
+  },
+  {
+    "gene_symbol": "STMN1",
+    "number_statements": 566
+  },
+  {
+    "gene_symbol": "THBS3",
+    "number_statements": 18
+  },
+  {
+    "gene_symbol": "TIMP1",
+    "number_statements": 1636
+  },
+  {
+    "gene_symbol": "TNF",
+    "number_statements": 10000
+  },
+  {
+    "gene_symbol": "TRAF6",
+    "number_statements": 1422
+  },
+  {
+    "gene_symbol": "TREM1",
+    "number_statements": 158
+  },
+  {
+    "gene_symbol": "TRPV1",
+    "number_statements": 618
+  },
+  {
+    "gene_symbol": "TXNIP",
+    "number_statements": 624
+  }
+]
