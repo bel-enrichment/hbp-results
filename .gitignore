@@ -105,3 +105,6 @@ venv.bak/
 
 # don't commit intermediate results
 cache/
+
+# IDEA
+.idea
