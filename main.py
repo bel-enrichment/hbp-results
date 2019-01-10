@@ -27,11 +27,11 @@ AUTHOR_STRING = ', '.join(sorted(AUTHORS, key=lambda s: s.split()[-1]))
 # Folder pointers
 HERE = os.path.abspath(os.path.dirname(__file__))
 
-DATA_DIRECTORY = os.path.abspath(os.path.join(HERE, 'rounds'))
-assert os.path.exists(DATA_DIRECTORY)
+ROUNDS_DIRECTORY = os.path.abspath(os.path.join(HERE, 'rounds'))
+assert os.path.exists(ROUNDS_DIRECTORY)
 
-CACHE_DIRECTORY = os.path.abspath(os.path.join(HERE, 'cache'))
-os.makedirs(CACHE_DIRECTORY, exist_ok=True)
+DATA_DIRECTORY = os.path.abspath(os.path.join(HERE, 'data'))
+os.makedirs(DATA_DIRECTORY, exist_ok=True)
 
 graph_metadata = dict(
     name='HBP - INDRA Curation',
@@ -41,8 +41,8 @@ graph_metadata = dict(
 )
 
 sheets_repository = BELSheetsRepository(
-    directory=DATA_DIRECTORY,
-    output_directory=CACHE_DIRECTORY,
+    directory=ROUNDS_DIRECTORY,
+    output_directory=DATA_DIRECTORY,
     metadata=graph_metadata,
 )
 
@@ -57,17 +57,16 @@ def get_sheets_graph(use_cached: bool = False, use_tqdm: bool = True) -> BELGrap
 
 @click.command()
 def main():
+    sheets_repository.generate_curation_summary()
+
     graph = get_sheets_graph()
     graph.summarize()
 
     if graph.warnings:
-        click.secho(f'Graph had {graph.number_of_warnings()} warnings')
-        # for warning in graph.warnings:
-        #    click.echo(warning)
+        number_errored_documents = len({path for path, _, _ in graph.warnings})
+        click.secho(f'Graph had {graph.number_of_warnings()} warnings in {number_errored_documents} documents')
         echo_warnings_via_pager(graph.warnings)
         sys.exit(-1)
-
-    sheets_repository.generate_curation_summary()
 
 
 if __name__ == '__main__':

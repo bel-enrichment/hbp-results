@@ -103,8 +103,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# don't commit intermediate results
-cache/
+.DS_Store
 
 # IDEA
 .idea
+
+*.bel.json
+*.bel.pickle
