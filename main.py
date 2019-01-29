@@ -64,10 +64,11 @@ def get_sheets_graph(use_cached: bool = True, use_tqdm: bool = True) -> BELGraph
 
 @click.command()
 @click.option('-w', '--show-warnings', is_flag=True)
-def main(show_warnings: bool):
-    # sheets_repository.generate_curation_summary()
+@click.option('-r', '--reload', is_flag=True)
+def main(show_warnings: bool, reload: bool):
+    sheets_repository.generate_curation_summary()
 
-    graph = get_sheets_graph()
+    graph = get_sheets_graph(use_cached=(not reload))
     graph.summarize()
 
     # summarize API
