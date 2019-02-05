@@ -7,4 +7,4 @@ install:
   - pip install pybel
   - pip install git+https://github.com/bel-enrichment/bel-enrichment.git
 script:
-  - python main.py
+  - python hbp_results.py
