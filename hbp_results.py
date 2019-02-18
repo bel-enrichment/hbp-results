@@ -13,6 +13,7 @@ import pandas as pd
 
 import neurommsig_knowledge
 from bel_enrichment import BELSheetsRepository
+from bel_repository import BELMetadata
 from pybel import BELGraph
 from pybel.cli import echo_warnings_via_pager
 from pybel.constants import ANNOTATIONS
@@ -40,11 +41,12 @@ assert os.path.exists(ROUNDS_DIRECTORY)
 DATA_DIRECTORY = os.path.abspath(os.path.join(HERE, 'data'))
 os.makedirs(DATA_DIRECTORY, exist_ok=True)
 
-graph_metadata = dict(
+graph_metadata = BELMetadata(
     name='HBP - INDRA Curation',
     version='0.1.0',
     authors=AUTHOR_STRING,
     contact='charles.hoyt@scai.fraunhofer.de',
+    license='CC BY 4.0',
 )
 
 sheets_repository = BELSheetsRepository(
@@ -66,10 +68,17 @@ def get_sheets_graph(use_cached: bool = True, use_tqdm: bool = True) -> BELGraph
 @click.option('-w', '--show-warnings', is_flag=True)
 @click.option('-r', '--reload', is_flag=True)
 def main(show_warnings: bool, reload: bool):
-    sheets_repository.generate_curation_summary()
-
+    """Generate all results and summaries."""
     graph = get_sheets_graph(use_cached=(not reload))
     graph.summarize()
+
+    try:
+        import pybel_tools.assembler.html
+    except ImportError:
+        click.secho('Can not find pybel_tools.assembler.html. No HTML output will be generated.', fg='yellow')
+    else:
+        with open(os.path.join(HERE, 'docs', 'index.html'), 'w') as file:
+            print(pybel_tools.assembler.html.to_html(graph), file=file)
 
     # summarize API
     indra_api_histogram = Counter(
@@ -120,6 +129,8 @@ def main(show_warnings: bool, reload: bool):
         if name in prior_subgraphs
     }, orient='index')
     summary_df.to_csv(os.path.join(sheets_repository.output_directory, 'subgraph_summary.tsv'), sep='\t')
+
+    sheets_repository.generate_curation_summary()
 
 
 if __name__ == '__main__':
