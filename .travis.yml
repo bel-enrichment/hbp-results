@@ -4,7 +4,6 @@ language: python
 dist: xenial
 python: "3.7"
 install:
-  - pip install pybel
-  - pip install git+https://github.com/bel-enrichment/bel-enrichment.git
+  - pip install pybel neurommsig_knowledge bel_enrichment
 script:
   - python hbp_results.py
