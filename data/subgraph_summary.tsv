@@ -1,0 +1,115 @@
+	Number of Nodes	Number of Edges	Number of Citations	Number of Authors	Network Density	Number of Components	Number of Warnings
+ADAM Metallopeptidase subgraph	127	451	292	0	2.82E-02	1	0
+APOE subgraph	333	743	430	0	6.72E-03	3	0
+ATP binding cassette transport subgraph	59	161	92	0	4.70E-02	1	0
+Acetylcholine signaling subgraph	423	1275	746	0	7.14E-03	9	0
+Akt subgraph	101	258	155	0	2.55E-02	3	0
+Albumin subgraph	149	341	271	0	1.55E-02	2	0
+Alcohol dehydrogenase subgraph	5	3	2	0	1.50E-01	2	0
+Alpha 2 macroglobulin subgraph	86	109	72	0	1.49E-02	1	0
+Amylin subgraph	24	45	22	0	8.15E-02	2	0
+Amyloidogenic subgraph	2090	7436	3986	0	1.70E-03	14	0
+Apoptosis signaling subgraph	1065	2401	1543	0	2.12E-03	7	0
+Autophagy signaling subgraph	57	146	89	0	4.57E-02	5	0
+Axonal guidance subgraph	62	167	98	0	4.42E-02	3	0
+Axonal transport subgraph	79	211	129	0	3.42E-02	2	0
+Bcl-2 subgraph	418	2094	1174	0	1.20E-02	4	0
+Beta secretase subgraph	317	891	470	0	8.89E-03	6	0
+Beta-Catenin subgraph	39	81	40	0	5.47E-02	1	0
+Beta-Oxidation of Fatty Acids	9	11	6	0	1.53E-01	1	0
+Binding and Uptake of Ligands by Scavenger Receptors	176	296	171	0	9.61E-03	4	0
+Blood vessel dilation subgraph	6	5	1	0	1.67E-01	1	0
+CREB subgraph	60	162	96	0	4.58E-02	1	0
+Calcium-dependent signal transduction	172	247	143	0	8.40E-03	3	0
+Calpastatin-calpain subgraph	100	211	126	0	2.13E-02	1	0
+Calsyntenin subgraph	44	140	84	0	7.40E-02	1	0
+Caspase subgraph	815	5013	2382	0	7.56E-03	2	0
+Cell adhesion subgraph	78	245	160	0	4.08E-02	3	0
+Cell cycle subgraph	15	16	11	0	7.62E-02	2	0
+Chaperone subgraph	68	170	101	0	3.73E-02	3	0
+Chemokine signaling subgraph	631	1528	988	0	3.84E-03	4	0
+Cholesterol metabolism subgraph	212	460	285	0	1.03E-02	2	0
+Complement system subgraph	166	653	496	0	2.38E-02	3	0
+Cortisol subgraph	4	3	2	0	2.50E-01	1	0
+Cyclin-CDK subgraph	149	415	196	0	1.88E-02	2	0
+Cytokine signaling subgraph	242	388	282	0	6.65E-03	4	0
+DKK1 subgraph	130	290	127	0	1.73E-02	1	0
+DNA synthesis	49	163	102	0	6.93E-02	1	0
+DYRK1A subgraph	55	160	94	0	5.39E-02	1	0
+Disaccharide metabolism subgraph	10	12	4	0	1.33E-01	1	0
+Eicosanoids signaling subgraph	81	86	64	0	1.33E-02	2	0
+Electron transport chain	157	376	242	0	1.54E-02	3	0
+Endoplasmic reticulum-Golgi protein export	38	124	81	0	8.82E-02	1	0
+Endosomal lysosomal subgraph	231	491	256	0	9.24E-03	2	0
+Endothelin subgraph	16	21	14	0	8.75E-02	1	0
+Energy metabolic subgraph	7	8	3	0	1.90E-01	2	0
+Epigenetic modification subgraph	101	223	135	0	2.21E-02	3	0
+Estrogen subgraph	45	101	63	0	5.10E-02	1	0
+Free radical formation subgraph	237	471	244	0	8.42E-03	8	0
+G-protein-mediated signaling	26	40	21	0	6.15E-02	2	0
+GABA subgraph	305	721	423	0	7.78E-03	3	0
+GSK3 subgraph	356	1165	653	0	9.22E-03	2	0
+Galanin subgraph	10	15	4	0	1.67E-01	1	0
+Gamma secretase subgraph	375	753	376	0	5.37E-03	4	0
+Gap junctions subgraph	5	6	4	0	3.00E-01	1	0
+Glucagon subgraph	24	32	11	0	5.80E-02	2	0
+Glutamatergic subgraph	256	572	382	0	8.76E-03	4	0
+Glutathione reductase subgraph	13	10	5	0	6.41E-02	3	0
+Hydrogen peroxide subgraph	57	169	115	0	5.29E-02	2	0
+Hypoxia response subgraph	90	216	143	0	2.70E-02	1	0
+Immunoglobulin subgraph	135	171	134	0	9.45E-03	2	0
+Inflammatory response subgraph	2003	6707	3829	0	1.67E-03	6	0
+Innate immune system subgraph	47	138	88	0	6.38E-02	3	0
+Insulin signal transduction	612	1973	828	0	5.28E-03	3	0
+Interferon signaling subgraph	107	440	323	0	3.88E-02	2	0
+Interleukin signaling subgraph	885	3762	2278	0	4.81E-03	6	0
+JAK-STAT signaling subgraph	74	316	221	0	5.85E-02	1	0
+Leptin subgraph	23	53	26	0	1.05E-01	1	0
+Lipid metabolism subgraph	11	12	7	0	1.09E-01	2	0
+Lipid peroxidation subgraph	191	366	286	0	1.01E-02	1	0
+Low density lipoprotein subgraph	520	1059	515	0	3.92E-03	7	0
+MAPK-ERK subgraph	310	667	382	0	6.96E-03	3	0
+MAPK-JNK subgraph	134	357	205	0	2.00E-02	3	0
+Matrix metalloproteinase subgraph	168	389	258	0	1.39E-02	1	0
+Metabolism of steroid hormones subgraph	27	28	18	0	3.99E-02	3	0
+Mitochondrial translocation subgraph	23	28	12	0	5.53E-02	3	0
+Myeloperoxidase subgraph	136	320	259	0	1.74E-02	1	0
+NMDA receptor	90	194	104	0	2.42E-02	2	0
+Nerve growth factor subgraph	436	905	644	0	4.77E-03	2	0
+Neuroprotection subgraph	86	153	89	0	2.09E-02	1	0
+Neurotransmitter release subgraph	7	10	3	0	2.38E-01	2	0
+Nitric oxide subgraph	358	937	575	0	7.33E-03	5	0
+Non-amyloidogenic subgraph	795	2238	1213	0	3.55E-03	6	0
+Notch signaling subgraph	151	542	328	0	2.39E-02	5	0
+Nuclear factor Kappa beta subgraph	108	253	161	0	2.19E-02	3	0
+Peroxisome proliferator activated receptor subgraph	165	240	175	0	8.87E-03	2	0
+Phosphatidylinositol 3 subgraph	203	433	271	0	1.06E-02	5	0
+Plasminogen activator subgraph	33	64	41	0	6.06E-02	1	0
+Prostaglandin subgraph	93	123	97	0	1.44E-02	1	0
+Reactive oxygen species subgraph	1401	6277	3064	0	3.20E-03	5	0
+Reelin signaling subgraph	113	275	153	0	2.17E-02	1	0
+Regulation of actin cytoskeleton subgraph	221	527	332	0	1.08E-02	6	0
+Renin-angiotensin subgraph	9	17	7	0	2.36E-01	1	0
+Response DNA damage	140	294	206	0	1.51E-02	2	0
+Response to oxidative stress	159	478	301	0	1.90E-02	1	0
+Retinoblastoma subgraph	13	20	8	0	1.28E-01	2	0
+RhoA subgraph	7	5	4	0	1.19E-01	2	0
+Serotonergic subgraph	61	174	116	0	4.75E-02	3	0
+Sphingolipid metabolic subgraph	15	25	4	0	1.19E-01	2	0
+Synapse assembly subgraph	6	4	2	0	1.33E-01	2	0
+Synaptic vesicle endocytosis subgraph	46	132	84	0	6.38E-02	1	0
+Synuclein subgraph	26	70	34	0	1.08E-01	1	0
+T cells signaling	65	104	65	0	2.50E-02	2	0
+TGF-Beta subgraph	25	49	37	0	8.17E-02	2	0
+Tau protein subgraph	708	2054	1087	0	4.10E-03	7	0
+Toll like receptor subgraph	96	277	184	0	3.04E-02	3	0
+Tumor necrosis factor subgraph	403	1095	738	0	6.76E-03	6	0
+Ubiquitin degradation subgraph	129	259	154	0	1.57E-02	3	0
+Unfolded protein response subgraph	55	162	92	0	5.45E-02	1	0
+Vascular endothelial growth factor subgraph	57	167	113	0	5.23E-02	1	0
+Vitamin subgraph	2	1	1	0	5.00E-01	1	0
+Wnt signaling subgraph	54	113	50	0	3.95E-02	2	0
+XIAP subgraph	371	1962	1103	0	1.43E-02	2	0
+mTOR signaling subgraph	39	77	48	0	5.20E-02	2	0
+miRNA subgraph	180	383	207	0	1.19E-02	4	0
+p53 stabilization subgraph	51	137	83	0	5.37E-02	1	0
