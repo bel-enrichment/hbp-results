@@ -36,8 +36,8 @@ It can be imported and used with the following. Note that it installs at a diffe
 
 .. code-block:: python
 
-    >>> from hbp_enrichment import sheets_repository
-    >>> graph = sheets_repository.get_graph()
+    >>> from hbp_enrichment import repository
+    >>> graph = repository.get_graph()
     >>> graph.summarize()
 
 License
@@ -47,7 +47,8 @@ License
 
 Acknowledgements
 ----------------
-This work was done during the `Human Brain Pharmacome project <https://pharmacome.scai.fraunhofer.de>` funded by the Fraunhofer Society's MAVO program.
+This work was done during the `Human Brain Pharmacome project <https://pharmacome.scai.fraunhofer.de>` funded by the
+Fraunhofer Society's MAVO program.
 
 .. |build| image:: https://travis-ci.com/bel-enrichment/results.svg?branch=master
     :target: https://travis-ci.com/bel-enrichment/results
