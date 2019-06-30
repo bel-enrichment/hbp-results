@@ -6,7 +6,7 @@ We applied the rational enrichment workflow described in https://github.com/bel-
 to ten knowledge graphs from the `NeuroMMSig <https://github.com/neurommsig/neurommsig-knowledge>`_ inventory.
 
 .. [1] Hoyt, C. T., *et al* (2019). `Re-curation and Rational Enrichment of Knowledge Graphs in
-       Biological Expression Language <https://doi.org/10.1101/536409>`_. *bioRxiv*, 536409.
+       Biological Expression Language <https://doi.org/10.1093/database/baz068>`_. *Database*, Volume 2019, 2019, baz068.
 
 Repository Structure
 --------------------
