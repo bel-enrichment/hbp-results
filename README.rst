@@ -23,8 +23,14 @@ Repository Structure
 
 Installation
 ------------
-This repository requires a particular package structure and can currently only be installed with pip in development
-mode using the following command:
+This repository can be installed from GitHub with the following command:
+
+.. code-block:: sh
+
+    $ pip install git+https://github.com/bel-enrichment/results.git
+
+
+For developers, can be installed in development mode using the following commands:
 
 .. code-block:: sh
 
