@@ -1,5 +1,5 @@
-Manuscript Results |build|
-==========================
+Manuscript Results |build| |zenodo|
+===================================
 This repository contains the results described by Hoyt, *et al* (2019) in [1]_.
 
 We applied the rational enrichment workflow described in https://github.com/bel-enrichment/bel-enrichment 
@@ -58,3 +58,6 @@ Fraunhofer Society's MAVO program.
 
 .. |build| image:: https://travis-ci.com/bel-enrichment/results.svg?branch=master
     :target: https://travis-ci.com/bel-enrichment/results
+    
+.. |zenodo| image:: https://zenodo.org/badge/161355118.svg
+    :target: https://zenodo.org/badge/latestdoi/161355118
